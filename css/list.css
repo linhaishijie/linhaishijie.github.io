@@ -1,0 +1,38 @@
+/* 秒杀模块 start*/
+.sk {
+    position: absolute;
+    top: 46px;
+    left: 203px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 14px;
+}
+
+/* 秒杀模块 end*/
+/* list_nav start*/
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    line-height: 45px;
+    margin: 0 28px;
+}
+
+.sk_list ul li a {
+    font: bold 16px "Micro YaHei";
+    color: #000000;
+}
+
+.sk_con {
+    float: right;
+}
+
+.sk_con ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 42px;
+    margin: 0 23px;
+}
+
+/* list_nav end*/
