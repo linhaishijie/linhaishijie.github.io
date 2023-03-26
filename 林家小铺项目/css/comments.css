@@ -1,0 +1,148 @@
+/* main1 */
+/* subnav */
+.main1 {
+    height: 515px;
+}
+
+main section {
+    float: left;
+}
+
+main section h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    width: 209px;
+    height: 48px;
+    background-color: #b1191a;
+    line-height: 48px;
+    text-align: center;
+}
+
+main section .subnav li {
+    width: 209px;
+    height: 31px;
+    line-height: 31px;
+    background-color: #c81623;
+    text-align: center;
+}
+
+main section .subnav li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+/* center  */
+main .center {
+    float: left;
+}
+
+main .center nav ul li {
+    float: left;
+    padding: 0 26px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid red;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+main .center nav ul li a {
+    font-size: 16px;
+}
+
+/* left  */
+main .left {
+    float: right;
+    width: 250px;
+    border: 1px solid #e4e4e4;
+}
+
+main .left h3 {
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px dotted #e8e8e7;
+}
+
+main .left ul li {
+    font-size: 13px;
+    color: #666;
+}
+
+/* main2  */
+.main2 {
+    height: 164px;
+}
+
+.main2 div {
+    float: left;
+}
+
+.main2 div img {
+    width: 248px;
+    height: 164px;
+}
+
+.main2 .img1 img {
+    width: 204px;
+    background-color: #5c5251;
+}
+
+.main3 .top {
+    border-bottom: 2px solid red;
+    position: relative;
+    height: 30px;
+}
+
+.main3 .top em {
+    float: left;
+}
+
+.main3 .top ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main3 .top ul li {
+    float: left;
+}
+
+.main3 .top em {
+    font: bold 18px 'weiruanyahei';
+    color: #c81623;
+}
+
+.main3 .top ul li {
+    font: 18px 'weiruanyahei';
+    padding-right: 16px;
+}
+
+.main3 .top ul li:not(:last-child) ::after {
+    content: '|';
+}
+
+.main3 .bottom {
+    font: 12px 'weiruanyahei';
+    color: #666;
+}
+
+.main3 .bottom table {
+    width: 210px;
+    height: 100px;
+    text-align: center;
+}
+
+.main3 .bottom table td {
+    height: 32px;
+    line-height: 32px;
+    padding: auto;
+    border-bottom: 1px solid #666;
+}
+
+.main3 .bottom .img1 {
+    width: 330px;
+    height: 360px;
+}
