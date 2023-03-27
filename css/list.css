@@ -36,3 +36,66 @@
 }
 
 /* list_nav end*/
+/* list 主体 start*/
+.list_item {
+    width: 303px;
+    height: 455px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.list_item .list_img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.list_item img {
+    width: 200px;
+    height: 150px;
+}
+
+.list_item {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #b0b0b0;
+}
+
+.item_info {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list_item .item_price {
+    font-size: 18px;
+    color: #ff6700;
+}
+
+.xianshi {
+    height: 20px;
+    margin: 15px 0;
+}
+
+.xianshi .xianshi_info {
+    float: left;
+}
+
+.xianshi .wai {
+    float: right;
+    width: 233px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.list_item a {
+    display: block;
+    height: 50px;
+    background-color: #b1191a;
+    font: bolder 18px "Micro YaHei";
+    color: #fff;
+    line-height: 50px;
+}
+
+/* list 主体 end*/
