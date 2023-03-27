@@ -1,0 +1,14 @@
+.register_header {
+    border-bottom: 1px solid #b1191a;
+}
+
+.register_loge {
+    width: 200px;
+    height: 96px;
+    padding-top: 15px;
+}
+
+.register_loge img {
+    width: 200px;
+    height: 96px;
+}
