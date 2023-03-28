@@ -43,13 +43,13 @@
     height: 455px;
     text-align: center;
     margin-top: 40px;
-    margin-right: 90px;
+    margin-right: 144px;
     font-size: 14px;
     line-height: 1.5;
     color: #b0b0b0;
 }
 
-.list_item:nth-child(3n) {
+.list_item:nth-of-type(3n+1) {
     margin-right: 0;
 }
 
