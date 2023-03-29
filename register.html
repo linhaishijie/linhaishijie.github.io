@@ -18,40 +18,54 @@
     <header class="register_header w height">
         <!-- loge start-->
         <div class="register_loge">
-            <img src="imagines/logo.png" alt="">
+            <a href="index.html"><img src="imagines/logo.png" alt=""></a>
         </div>
         <!-- loge end-->
     </header>
     <!--header部分end -->
-    <form action="" class="w">
-        <div>
-            <a href="#">登录</a><em>我有账号，去登陆</em>
-            <span>注册成为新用户</span>
+    <!-- formarea start -->
+    <div class="w">
+        <div class="registerarea">
+            <h3>注册成为新用户
+                <div class="login">我有账号，去<a href="#">登陆</a></div>
+            </h3>
+            <div class="register_form">
+                <form action="">
+                    <ul>
+                        <li>
+                            <label for="a">手机号：</label><input type="tel" class="ipt" id="a"><span><i class="fail"></i>
+                                手机号码格式不正确，请从新输入</span>
+                        </li>
+                        <li>
+                            <label for="b">短信验证码：</label><input type="number" class="ipt" id="b"><span><i
+                                    class="success"></i>
+                                短信验证码输入正确</span>
+                        </li>
+                        <li>
+                            <label for="c">登陆密码：</label><input type="password" class="ipt" id="c"><span><i
+                                    class="fail"></i>
+                                密码不少于6位数，请从新输入</span>
+                        </li>
+                        <li>
+                            安全程度：<em class="di">低</em><em class="zhong">中</em><em class="gao">高</em>
+                        </li>
+                        <li>
+                            <label for="d">确认密码：</label><input type="password" class="ipt" id="d"><span><i
+                                    class="fail"></i>
+                                密码不一致，请从新输入 </span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="" checked="checked"> 同意协议并注册<a href="#">《知晓用户协议》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册" class="subm">
+                        </li>
+                    </ul>
+                </form>
+            </div>
         </div>
-        <table class="w">
-            <tr>
-                <td>手机号：</td>
-                <td><input type="tel" name="" id=""></td>
-            </tr>
-            <tr>
-                <td>短信验证码：</td>
-                <td><input type="text" name="" id=""></td>
-            </tr>
-            <tr>
-                <td>登陆密码：</td>
-                <td><input type="password" name="" id=""></td>
-            </tr>
-            <tr>
-                <td>确认密码：</td>
-                <td><input type="password" name="" id=""></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="checkbox" name="" id="check">同意协议并注册《知晓用户协议》</td>
-            </tr>
-            <button>完成注册</button>
-        </table>
-    </form>
+    </div>
+    <!-- formarea end -->
     <!-- footer start-->
     <footer class="footer">
         <div class="w">
