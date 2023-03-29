@@ -1,0 +1,187 @@
+.bgc {
+    background-color: #f1f1f1;
+}
+
+/* head */
+.head {
+    position: relative;
+    font-size: 12px;
+    height: 31px;
+    width: 955px;
+    margin: 0 auto;
+}
+
+.head em {
+    float: left;
+    margin-right: 10px;
+    height: 31px;
+    line-height: 31px;
+}
+
+.head>li {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+}
+
+.head>li a {
+    color: #c81623;
+}
+
+.head ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #666666;
+}
+
+.head ul li {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+}
+
+.head ul li:not(:last-child):after {
+    content: "|";
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?p4ssmb');
+    src: url('fonts/icomoon.eot?p4ssmb#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?p4ssmb') format('truetype'),
+        url('fonts/icomoon.woff?p4ssmb') format('woff'),
+        url('fonts/icomoon.svg?p4ssmb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icmoon {
+    font-family: 'icomoon';
+}
+
+.head ul li span {
+    font-family: 'icomoon';
+    color: pink;
+}
+
+/* header */
+.header {
+    height: 90px;
+    margin: 0 auto;
+}
+
+.header .left {
+    float: left;
+}
+
+.header .left button {
+    width: 139px;
+    height: 34px;
+}
+
+.header .right {
+    float: right;
+}
+
+.header .center {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
+}
+
+.header .center input {
+    float: left;
+    width: 455px;
+    height: 34px;
+    border: 2px solid red;
+    border-color: red transparent red red;
+}
+
+.header .center span {
+    float: left;
+    width: 83px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+}
+
+.header ul {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header ul li {
+    float: left;
+    margin-right: 25px;
+}
+
+.header ul li .red {
+    color: #c81623;
+}
+
+/* main  */
+ul li {
+    float: left;
+    padding: 20px;
+    border-bottom: 2px solid red;
+}
+
+main ul li a {
+    font: bold 16px 'weiruanyahei';
+    color: #000;
+}
+
+main img {
+    float: left;
+}
+
+/* footer  */
+footer {
+    margin: 0 auto;
+}
+
+footer .footer1 {
+    height: 100px;
+}
+
+footer .footer1>div {
+    width: 240px;
+    float: left;
+}
+
+footer .footer1>div div {
+    width: 55px;
+    height: 53px;
+    overflow: hidden;
+}
+
+footer .footer2 dl {
+    float: left;
+    width: 200px;
+    height: 190px;
+}
+
+footer .footer2 dl dt {
+    font: 16px 'weiruanyahei';
+    color: #666;
+}
+
+footer .footer2 dl dd {
+    font: 12px 'weiruanyahei';
+    color: #666;
+}
+
+footer .footer3 ul {
+    height: 200px;
+}
+
+footer .footer3 ul li {
+    float: left;
+}
