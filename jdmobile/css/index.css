@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.shortcut {
+    width: 100%;
+    background-color: #c82519;
+    height: 44px;
+}
+
+.shortcut ul {
+    position: relative;
+}
+
+.shortcut ul li:nth-child(1) {
+    float: left;
+}
+
+.shortcut ul li:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 56px;
+}
+
+.shortcut ul li:nth-child(2) img {
+    width: 20px;
+    height: 15px;
+}
+
+.shortcut ul li:nth-child(3) {
+    float: right;
+}
+
+.shortcut ul li a {
+    color: white;
+}
