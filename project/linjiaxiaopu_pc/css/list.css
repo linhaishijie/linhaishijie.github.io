@@ -1,0 +1,115 @@
+/* 秒杀模块 start*/
+.sk {
+    position: absolute;
+    top: 46px;
+    left: 203px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 14px;
+}
+
+/* 秒杀模块 end*/
+/* list_nav start*/
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    line-height: 45px;
+    margin: 0 28px;
+}
+
+.sk_list ul li a {
+    font: bold 16px "Micro YaHei";
+    color: #000000;
+}
+
+.sk_con {
+    float: right;
+}
+
+.sk_con ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 42px;
+    margin: 0 23px;
+}
+
+/* list_nav end*/
+/* list 主体 start*/
+.list_item {
+    float: left;
+    width: 303px;
+    height: 455px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 144px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #b0b0b0;
+}
+
+.list_item:nth-of-type(3n+1) {
+    margin-right: 0;
+}
+
+.list_item .list_img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.list_item img {
+    width: 200px;
+    height: 150px;
+}
+
+.item_info {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list_item .item_price {
+    font-size: 18px;
+    color: #ff6700;
+}
+
+.xianshi {
+    height: 20px;
+    margin: 15px 0;
+}
+
+.xianshi .xianshi_info {
+    float: left;
+}
+
+.xianshi .wai {
+    float: right;
+    width: 233px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.xianshi .wai .nei {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.xianshi .wai:hover .nei {
+    width: 0;
+    animation-duration: 10s;
+}
+
+.list_item a {
+    display: block;
+    height: 50px;
+    background-color: #b1191a;
+    font: bolder 18px "Micro YaHei";
+    color: #fff;
+    line-height: 50px;
+}
+
+/* list 主体 end*/
