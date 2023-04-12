@@ -12,7 +12,11 @@ body {
   background-color: #f2f2f2;
 }
 body .search_index {
-  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #F6F6F6;
   display: flex;
 }
 body .search_index .search {
@@ -21,6 +25,8 @@ body .search_index .search {
   border: 1px solid #f2f2f2;
   margin: 7px 10px;
   line-height: 24px;
+  font-size: 12px;
+  color: #666;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 body .search_index .search::before {
@@ -49,4 +55,141 @@ body .search_index a::before {
   background: url(../images/sprite.png) no-repeat -59px -193px;
   background-size: 104px;
   margin: 2px auto 3px;
+}
+body .focus {
+  margin-top: 44px;
+}
+body .focus img {
+  width: 100%;
+}
+body .local_nav {
+  display: flex;
+  width: 100%;
+  padding: 10px 0 10px;
+  background-color: #fff;
+}
+body .local_nav a {
+  display: block;
+  flex: 1;
+  text-align: center;
+  color: #222;
+  font-size: 12px;
+}
+body .local_nav a div[class^=img] {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  background: url(../images/localnav_bg.png) no-repeat 0 0;
+  background-size: 32px;
+}
+body .local_nav a .img2 {
+  background-position: 0 -32px !important;
+}
+body .local_nav a .img3 {
+  background-position: 0 -64px !important;
+}
+body .local_nav a .img4 {
+  background-position: 0 -96px !important;
+}
+body .local_nav a .img5 {
+  background-position: 0 -128px !important;
+}
+body .nav {
+  border-radius: 10px;
+  overflow: hidden;
+}
+body .nav .nav_common {
+  display: flex;
+  height: 88px;
+  background: linear-gradient(to right, #fa5956, #fa9b4d);
+}
+body .nav .nav_common:nth-child(2) {
+  background: linear-gradient(to right, #4b8fed, #53bbed);
+}
+body .nav .nav_common:nth-child(3) {
+  background: linear-gradient(to right, #34c2a9, #6cd558);
+}
+body .nav .nav_common:nth-child(n+2) {
+  border-top: 2px solid #fff;
+}
+body .nav .nav_common .nav_items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+body .nav .nav_common .nav_items:nth-child(n+2) {
+  border-left: 1px solid #fff;
+}
+body .nav .nav_common .nav_items:nth-child(1) a {
+  background: url(../images/hotel.png) no-repeat bottom;
+  background-size: 100%;
+}
+body .nav .nav_common .nav_items a {
+  flex: 1;
+  display: block;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+body .sale_box {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px 0;
+}
+body .sale_box a {
+  flex: 20%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+}
+body .sale_box a .sale_box_icon {
+  background: url('../images/subnav-bg.png') no-repeat 0 0;
+  background-size: 22px;
+  width: 22px;
+  height: 18px;
+  margin: 10px auto;
+}
+body .sales {
+  border-top: 1px solid #bbb;
+  background-color: #fff;
+  margin: 4px;
+}
+body .sales .sales_hd {
+  display: flex;
+  position: relative;
+  height: 44px;
+  border-bottom: 1px solid #ccc;
+}
+body .sales .sales_hd .more {
+  margin-top: 13px;
+  width: 73px;
+  height: 15px;
+  background: url('../images/hot.png') no-repeat 0 -20px;
+  background-size: 79px;
+}
+body .sales .sales_hd a {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+  background: linear-gradient(to left, #FF506C, #FF6BC6);
+  border-radius: 15px;
+  padding: 3px 20px 3px 10px;
+  color: #fff;
+}
+body .sales .sales_hd .sales_bd .row {
+  display: flex;
+}
+body .sales .sales_hd .sales_bd .row a {
+  display: block;
+  line-height: 0px;
+  flex: 1;
+  border-bottom: 1px solid #eee;
+  background-color: purple;
+}
+body .sales .sales_hd .sales_bd .row a img {
+  vertical-align: bottom;
+  width: 10px;
 }
