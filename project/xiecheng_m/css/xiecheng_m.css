@@ -179,17 +179,16 @@ body .sales .sales_hd a {
   padding: 3px 20px 3px 10px;
   color: #fff;
 }
-body .sales .sales_hd .sales_bd .row {
+body .sales .sales_bd .row {
   display: flex;
 }
-body .sales .sales_hd .sales_bd .row a {
-  display: block;
-  line-height: 0px;
-  flex: 1;
+body .sales .sales_bd .row a {
+  flex: 50%;
+  display: inline-block;
   border-bottom: 1px solid #eee;
   background-color: purple;
 }
-body .sales .sales_hd .sales_bd .row a img {
+body .sales .sales_bd .row a img {
   vertical-align: bottom;
-  width: 10px;
+  width: 100%;
 }
