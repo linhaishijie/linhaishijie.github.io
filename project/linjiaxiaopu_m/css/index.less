@@ -7,23 +7,45 @@ html {
     font-size: 50px;
 }
 
+@fenshu: 15;
+
+@media screen and (max-width:340px) {
+    html {
+        font-size: (340rem / @fenshu);
+    }
+}
+
+@media screen and (max-with:750px) {
+    html {
+        font-size: (750rem / @fenshu);
+    }
+}
+
+@basefont: 50px;
+
 body {
     display: block;
     background-color: #f2f2f2;
-    width: 750px;
-    font-size: (18rem / 50);
-    margin: 0 auto;
+    min-width: 340px;
+    max-width: 750px;
+    font-size: (18rem / @basefont);
+    margin: 0 auto !important;
 
-    .search_index {
-        width: 750px;
+    .search_content {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: (750rem / @basefont);
         display: flex;
         background-color: #e1251b;
-        height: 44px;
+        height: (88rem / @basefont);
         text-align: center;
+        font-size: (25rem / @basefont);
 
-        .nav1 {
+        .classify {
             flex: 1;
-            line-height: 44px;
+            line-height: (88rem / @basefont);
 
         }
 
@@ -34,27 +56,27 @@ body {
             margin: 10px 0;
             border: 1px soild #f2f2f2;
             box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+            line-height: (68rem / @basefont);
         }
 
         .login {
             flex: 1;
-            line-height: 44px;
+            line-height: (88rem / @basefont);
         }
     }
 
-    .focus {
+    .banner {
 
         img {
             width: 100%;
         }
     }
 
-    .banner {
+    .ad {
         display: flex;
 
         a {
             flex: 1;
-            display: inline-block;
 
             img {
                 width: 100%;
@@ -66,15 +88,15 @@ body {
     .nav {
         a {
             display: inline-block;
-            width: (150rem / 50);
-            height: (140rem / 50);
+            width: (150rem / @basefont);
+            height: (140rem / @basefont);
             text-align: center;
             text-decoration: none;
 
             img {
                 display: block;
-                margin: 10px auto;
-                width: (82rem / 50);
+                margin: (10rem / @basefont) auto;
+                width: (82rem / @basefont);
             }
         }
     }

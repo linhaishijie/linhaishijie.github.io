@@ -5,47 +5,63 @@
 html {
   font-size: 50px;
 }
+@media screen and (max-width: 340px) {
+  html {
+    font-size: 22.66666667rem;
+  }
+}
+@media screen and (max-with: 750px) {
+  html {
+    font-size: 50rem;
+  }
+}
 body {
   display: block;
   background-color: #f2f2f2;
-  width: 750px;
+  min-width: 340px;
+  max-width: 750px;
   font-size: 0.36rem;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
-body .search_index {
-  width: 750px;
+body .search_content {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15rem;
   display: flex;
   background-color: #e1251b;
-  height: 44px;
+  height: 1.76rem;
   text-align: center;
+  font-size: 0.5rem;
 }
-body .search_index .nav1 {
+body .search_content .classify {
   flex: 1;
-  line-height: 44px;
+  line-height: 1.76rem;
 }
-body .search_index .search {
+body .search_content .search {
   text-align-last: left;
   background-color: #fff;
   flex: 7;
   margin: 10px 0;
   border: 1px soild #f2f2f2;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  line-height: 1.36rem;
 }
-body .search_index .login {
+body .search_content .login {
   flex: 1;
-  line-height: 44px;
+  line-height: 1.76rem;
 }
-body .focus img {
+body .banner img {
   width: 100%;
 }
-body .banner {
+body .ad {
   display: flex;
 }
-body .banner a {
+body .ad a {
   flex: 1;
-  display: inline-block;
 }
-body .banner a img {
+body .ad a img {
   width: 100%;
   vertical-align: bottom;
 }
@@ -58,6 +74,6 @@ body .nav a {
 }
 body .nav a img {
   display: block;
-  margin: 10px auto;
+  margin: 0.2rem auto;
   width: 1.64rem;
 }
