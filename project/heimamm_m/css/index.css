@@ -1,0 +1,210 @@
+a {
+  text-decoration: none;
+}
+body {
+  min-width: 320px;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  background: #F1F3F7;
+}
+body .wrap {
+  background-color: #fff;
+}
+body .wrap .header {
+  height: 53px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  color: #1B1B1B;
+  text-align: center;
+  line-height: 65px;
+  border-bottom: 1px solid #E9E9E9;
+}
+body .wrap .nav {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 25.5px;
+}
+body .wrap .nav a {
+  flex: 33.33%;
+}
+body .wrap .nav a:nth-child(n+4) {
+  margin-top: 14px;
+}
+body .wrap .nav a [class^=img] {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+}
+body .wrap .nav a .img1 {
+  background: url(../images/icon1.png) -7px -4px/70px 70px no-repeat;
+}
+body .wrap .nav a .img2 {
+  background: url(../images/icon2.png) no-repeat -7px -4px/70px 70px;
+}
+body .wrap .nav a .img3 {
+  background: url(../images/icon3.png) no-repeat -7px -4px/70px 70px;
+}
+body .wrap .nav a .img4 {
+  background: url(../images/icon4.png) no-repeat -7px -4px/70px 70px;
+}
+body .wrap .nav a .img5 {
+  background: url(../images/icon5.png) no-repeat -7px -4px/70px 70px;
+}
+body .wrap .nav a .img6 {
+  background: url(../images/icon6.png) no-repeat -7px -4px/70px 70px;
+}
+body .wrap .nav a p {
+  font-size: 13px;
+  font-family: ArialMT;
+  color: #6F6F6F;
+  margin: 20px auto;
+}
+body .wrap .banner {
+  margin-top: 16px;
+  margin-bottom: 40px;
+  padding: 0 7px;
+}
+body .wrap .banner img {
+  width: 100%;
+}
+body .content {
+  margin-top: 5px;
+  background-color: #fff;
+}
+body .content .con_hd {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 11px;
+}
+body .content .con_hd h4 {
+  font-size: 14px;
+  font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333;
+}
+body .content .con_hd .work::before {
+  display: inline-block;
+  margin-right: 7px;
+  content: "";
+  width: 19px;
+  height: 19px;
+  vertical-align: middle;
+  background: url(../images/i1.png) no-repeat 0 0/19px 19px;
+}
+body .content .con_hd .dian::before {
+  display: inline-block;
+  margin-right: 7px;
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url(../images/i2.png) no-repeat 0 0/19px 19px;
+  vertical-align: middle;
+}
+body .content .con_hd a {
+  flex: 1;
+  font-size: 11px;
+  font-family: MicrosoftYaHei;
+  color: #999999;
+  display: flex;
+  justify-content: end;
+}
+body .footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 84px;
+  background-color: #fff;
+  border-top: 1px solid #E2E2E2;
+}
+body .footer a {
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+}
+body .footer a:nth-child(1) i {
+  color: #3fc7db;
+}
+body .footer a [class^=img] {
+  width: 20px;
+  height: 21px;
+  margin: 0 auto;
+}
+body .footer a .img1 {
+  background: url(../images/home.png) no-repeat 0 0/20px 21px;
+}
+body .footer a .img2 {
+  background: url(../images/net.png) no-repeat 0 0/20px 21px;
+}
+body .footer a .img3 {
+  background: url(../images/ms.png) no-repeat 0 0/20px 21px;
+}
+body .footer a .img4 {
+  background: url(../images/user.png) no-repeat 0 0/20px 21px;
+}
+body .footer a i {
+  font-size: 11px;
+  font-family: MicrosoftYaHei;
+  color: #656565;
+  font-style: normal;
+}
+.work_swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.work_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+}
+.work_swiper .swiper-slide-active,
+.work_swiper .swiper-slide-duplicate-active {
+  transform: scale(1);
+}
+.dian_swiper .swiper {
+  width: 100%;
+  height: 100%;
+}
+.dian_swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.dian_swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

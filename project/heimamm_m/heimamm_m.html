@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            黑马面面
+        </div>
+        <div class="nav">
+            <a href="#">
+                <div class="img1"></div>
+                <p>HR面试</p>
+            </a> <a href="#">
+                <div class="img2"></div>
+                <p>笔试</p>
+            </a> <a href="#">
+                <div class="img3"></div>
+                <p>技术面试</p>
+            </a> <a href="#">
+                <div class="img4"></div>
+                <p>模拟面试</p>
+            </a> <a href="#">
+                <div class="img5"></div>
+                <p>面试技巧</p>
+            </a> <a href="#">
+                <div class="img6"></div>
+                <p>薪资查询</p>
+            </a>
+            <div class="banner">
+                <img src="upload/go.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="con_hd">
+            <h4 class="work">就业指导</h4>
+            <a href="#">更多>></a>
+        </div>
+        <div class="work_swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="content">
+        <div class="con_hd">
+            <h4 class="dian">充电学习</h4>
+            <a href="#">更多>></a>
+        </div>
+        <div class="dian_swiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#">
+            <div class="img1"></div>
+            <i>首页</i>
+        </a> <a href="#">
+            <div class="img2"></div>
+            <i>技术面试</i>
+        </a> <a href="#">
+            <div class="img3"></div>
+            <i>模拟面试</i>
+        </a> <a href="#">
+            <div class="img4"></div>
+            <i>我的主页</i>
+        </a>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

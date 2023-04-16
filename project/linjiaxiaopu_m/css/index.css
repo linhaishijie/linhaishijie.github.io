@@ -1,3 +1,4 @@
+@import url(../H5/css/common.css);
 * {
   margin: 0;
   padding: 0;
@@ -5,52 +6,94 @@
 html {
   font-size: 50px;
 }
-@media screen and (max-width: 340px) {
+@media screen and (min-width: 320px) {
   html {
-    font-size: 22.66666667rem;
+    font-size: 21.33333333px;
   }
 }
-@media screen and (max-with: 750px) {
+@media screen and (min-width: 360px) {
   html {
-    font-size: 50rem;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
   }
 }
 body {
   display: block;
   background-color: #f2f2f2;
-  min-width: 340px;
+  min-width: 320px;
   max-width: 750px;
   font-size: 0.36rem;
+  line-height: 1.5;
   margin: 0 auto !important;
 }
 body .search_content {
+  display: flex;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 15rem;
-  display: flex;
   background-color: #e1251b;
+  width: 15rem;
   height: 1.76rem;
   text-align: center;
   font-size: 0.5rem;
 }
 body .search_content .classify {
   flex: 1;
-  line-height: 1.76rem;
 }
 body .search_content .search {
-  text-align-last: left;
+  text-align: center;
   background-color: #fff;
   flex: 7;
   margin: 10px 0;
   border: 1px soild #f2f2f2;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
-  line-height: 1.36rem;
 }
 body .search_content .login {
   flex: 1;
-  line-height: 1.76rem;
 }
 body .banner img {
   width: 100%;
@@ -73,7 +116,9 @@ body .nav a {
   text-decoration: none;
 }
 body .nav a img {
-  display: block;
   margin: 0.2rem auto;
   width: 1.64rem;
+}
+body .nav a span {
+  display: block;
 }
