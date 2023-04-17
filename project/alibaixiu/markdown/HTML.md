@@ -58,6 +58,9 @@
 - [书写顺序](#书写顺序)
 - [常见内容过大撑破盒子导致布局失效](#常见内容过大撑破盒子导致布局失效)
 - [flex盒子主轴最后一个元素右对齐](#flex盒子主轴最后一个元素右对齐)
+- [while循环中有switch,如何跳出while循环](#while循环中有switch如何跳出while循环)
+- [js中换行](#js中换行)
+- [模板字符串和格式化文本](#模板字符串和格式化文本)
 
 # CSS权重
 ## 0继承/*/>/+相邻选择器/~同胞选择器;
@@ -574,4 +577,42 @@ font-size：14px（防止继承）
 flex: 1;最后一个元素自己占据所有剩余空间
 display: flex;自己变成弹性盒子
 justify-content: end;自己的内容flex-end
+```
+# while循环中有switch,如何跳出while循环
+跳出位置使while循环条件破坏
+```
+let money = 100
+gon = true
+while (gon) {
+    let num = +prompt('请你选择操作:\n1.存钱\n2.取钱\n3.查看余额\n4.退出')
+    switch (num) {
+        case 1:
+            let sum = +prompt('请输入你的存钱金额:')
+            money += sum
+            break;
+        case 2:
+            let jian = +prompt('请输入你的取钱金额:')
+            money -= jian
+            break;
+        case 3:
+            alert(`你的余额为${money}`)
+            break;
+        case 4:
+            gon = false
+    }
+}
+```
+# js中换行
+```
+\n \r
+除document.write(无论啥)
+<br>
+document.write(里面必须是引号引注的字符串)
+其他位置模板字符串(反引号引注的)
+(针对其他位置的模板字符串,直接回车好像也有用)
+```
+# 模板字符串和格式化文本
+**格式化文本里面可以是模板字符串也可以是表达式**
+```
+`${}`
 ```
