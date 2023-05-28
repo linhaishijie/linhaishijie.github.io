@@ -1,0 +1,148 @@
+.main {
+    .top {
+        display: flex;
+        width: 1200px;
+        height: 50px;
+        line-height: 50px;
+
+        .icon {
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .img {
+                vertical-align: middle;
+            }
+        }
+
+        .desc {
+            font-size: 18px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #777;
+            margin-right: 10px;
+        }
+
+        .desc1 {
+            font-size: 18px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #a0a0a0;
+        }
+    }
+
+    .banner {
+        width: 1200px;
+        margin: 0 auto;
+        height: 100%;
+        overflow: hidden;
+
+        img {
+            float: left;
+            width: 480px;
+            height: 270px;
+        }
+
+        .banner-center {
+            margin-left: 20px;
+            float: left;
+            width: calc(100% - 500px);
+            position: relative;
+
+            h3 {
+                color: #fff;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 33px;
+                margin-bottom: 20px;
+            }
+
+            ul {
+                list-style: none;
+                overflow: hidden;
+                clear: both;
+                margin-bottom: 18px;
+
+                li {
+                    float: left;
+                    width: 50%;
+                    color: #fff;
+                    font-size: 12px;
+                    line-height: 18px;
+                    opacity: .75;
+                    height: 36px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2
+                        /*! autoprefixer: off */
+                    ;
+                }
+            }
+
+            .ceter-bottom1 {
+                overflow: hidden;
+                clear: both;
+
+                dl {
+                    float: left;
+                    margin-right: 60px;
+
+                    dt {
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 25px;
+                        margin-bottom: 5px;
+
+                        dd {
+                            font-size: 12px;
+                            color: #fff;
+                            opacity: .75;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+
+            .center-bottom2 {
+                margin: 0;
+                padding: 0;
+
+                .count {
+                    float: left;
+                    width: 300px;
+                    height: 40px;
+                    line-height: 40px;
+                    position: relative;
+                    padding: 0 0 0 10px;
+                    border: 1px solid #888;
+                    border-radius: 20px;
+                    color: #fff;
+                    font-size: 12px;
+                }
+
+                .enter {
+                    background: #fff !important;
+                    color: #333 !important;
+                    margin-right: 15px;
+                }
+
+                span {
+                    width: 120px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #fff;
+                    background-color: #3d84ff;
+                    display: inline-block;
+                    border-radius: 20px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
